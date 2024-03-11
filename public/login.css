@@ -1,0 +1,89 @@
+
+
+/* Estilo fundo da tela de login */
+
+
+/* Estilo titulo da tela de login */
+
+/* Define estilos para o corpo do documento HTML */
+body {
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    display: flex; /* Usa flexbox para alinhar conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura para 100% da altura da janela de visualização */
+    background-color: #e2e2e2; /* Define a cor de fundo */
+    flex-direction: column;
+}
+
+/* Estilos para o contêiner de login */
+#login-container {
+    width: 450px; /* Define a largura do contêiner */
+    height: 340px; /* Define a altura do contêiner */
+    padding: 20px; /* Adiciona preenchimento interno */
+    background-color: #e2e2e2; /* Define a cor de fundo do contêiner */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra */
+    text-align: center; /* Centraliza o conteúdo do contêiner */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    display: flex; /* Usa flexbox para alinhar os itens internos */
+    flex-direction: column; /* Ajusta a direção do fluxo para coluna */
+
+
+}
+
+/* Estilos para o título de login */
+#titulo-login {
+    margin-bottom: 30px; /* Adiciona margem inferior */
+    font-family: Arial; /* Altera a fonte do título */
+    font-size: 40px; /* Altera o tamanho da fonte */
+    font-weight: 300; /* Altera a espessura da fonte para mais fina */
+
+}
+
+/* Estilos para os campos de entrada do formulário de login */
+#login-form input {
+    margin-bottom: 40px; /* Adiciona margem inferior */
+    height: 25px; /* Define a altura do contêiner */
+    width: calc(100% - 40px); /* Define a largura do campo de entrada */
+    padding: 10px; /* Adiciona preenchimento */
+    border: 0px solid #ccc; /* Adiciona uma borda */
+    border-radius: 0px; /* Adiciona bordas arredondadas */
+    outline: none; /* Remove o contorno ao selecionar o campo */
+
+}
+
+/* Estilos para o texto dentro do formulário */
+#login-form input[type="text"]::placeholder,
+#login-form input[type="password"]::placeholder {
+    opacity: .5; /* Define a opacidade do texto */
+}
+
+/* Estilos para o botão de login */
+#login-form button {
+    width: 30%; /* Preenche a largura do formulário */
+    padding: 10px; /* Adiciona preenchimento */
+    border: none; /* Remove a borda */
+    background-color: #007bff; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    margin-top: 0px;
+}
+
+
+/* Estilos para o link "Não tem acesso? Cadastre-se" */
+
+#no-access {
+    bottom: 140px; /* Move o texto para baixo */
+    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    font-size: 20px; /* Define o tamanho da fonte */
+    color: #2a2828; /* Define a cor do texto */
+    margin-top: 20px;
+}
+
+#cadastre-se {
+    font-weight: bold; /* Define o texto em negrito */
+
+}

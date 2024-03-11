@@ -1,0 +1,71 @@
+/* Define o estilo do corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes */
+    margin: 0; /* Remove as margens padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    display: flex; /* Usa o modelo de layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da tela inteira */
+    background-color: #e2e2e2; /* Define a cor de fundo */
+}
+
+/* Define o estilo do contêiner principal */
+.container {
+    display: flex; /* Usa o modelo de layout flexível */
+    background-color: #e2e2e2;
+}
+
+/* Define o estilo do contêiner do formulário 1 */
+.form-container {
+    width: 40%; /* Define a largura do contêiner do formulário */
+    margin-left: 0px;
+    margin-right: 150px;
+    
+}
+
+/* Define o estilo do título do formulário 1 */
+.form-container h2 {
+    text-align: left; /* Alinha o texto do título do formulário à esquerda */
+    width: 150%;
+    font-family: Arial, sans-serif; /* Define a fonte */
+    font-size: 20px; /* Define o tamanho da fonte */
+
+}
+
+/* Define o estilo das colunas do formulário */
+.form-column {
+    display: flex; /* Usa o modelo de layout flexível */
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    gap: 20px; /* Define o espaço entre os elementos */
+}
+
+/* Define o estilo dos campos de entrada do formulário */
+.form-row input, .form-row select {
+    width: 130%; /* Define a largura dos campos de entrada */
+    padding: 10px; /* Adiciona preenchimento aos campos de entrada */
+    font-size: 16px; /* Define o tamanho da fonte dos campos de entrada */
+    border: none; /* Remove a borda dos campos de entrada */
+    outline: none; /* Remove o contorno padrão ao ser selecionado */
+    height: 30px;
+    background-color: rgb(255, 255, 255); 
+
+}
+
+/* Define o estilo do botão */
+
+.button-container button {
+    padding: 10px 20px; /* Adiciona preenchimento ao botão */
+    font-size: 16px; /* Define o tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    position: absolute; /* Permite posicionar o botão de forma absoluta */
+    top: 100%; /* Posiciona o botão abaixo do campo de email */
+    left: 0; /* Alinha o botão à esquerda */
+    background-color:#007bff;
+    color: #fff; /* Define a cor do texto */
+    border: none; /* Remove a borda */
+    position: relative; /* Torna o contêiner do botão como um ponto de referência para o posicionamento absoluto do botão */
+    margin-top: 20px; /* Adiciona margem superior para separar o botão do campo de email */
+    text-align: left; /* Alinha o botão à esquerda */
+
+}
